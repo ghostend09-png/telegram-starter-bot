@@ -1,17 +1,32 @@
 {
-  "name": "fadehost-telegram-starter-bot",
+  "name": "mira-tech",
   "version": "1.0.0",
-  "description": "A Telegram bot starter: commands, an inline button, an echo, polling or webhook mode. Hosted by FadeHost.",
-  "type": "module",
+  "description": "MIRA-TECH - Premium Teaching Bot for JavaScript, Node.js, and Python with Bot Creation Masterclass",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "type": "commonjs",
   "engines": {
-    "node": ">=20"
+    "node": ">=18.0.0"
   },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "teaching",
+    "javascript",
+    "nodejs",
+    "python",
+    "premium",
+    "learning"
+  ],
+  "author": "MIRA-TECH",
+  "license": "ISC",
   "dependencies": {
-    "grammy": "^1.30.0"
-  },
-  "license": "MIT"
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5",
+    "chalk": "^4.1.2",
+    "uuid": "^9.0.1"
+  }
 }
